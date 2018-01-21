@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  events = ['Sziget', 'Volt', 'Efott', 'Szin'];
+  show = true;
+  loginNev = 'Berki Tamás';
+
+  toggle() {
+    this.show = !this.show;
+  }
+  demo(ev: MouseEvent) {
+    console.log(ev);
+  }
 }

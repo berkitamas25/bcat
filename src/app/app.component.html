@@ -15,6 +15,17 @@
 
       <a class=" doboz" target="_blank" rel="noopener" href="https://facebook.com/">Facebook</a>
     </div>
+  <ul>
+    <li *ngFor="let event of events">{{ event }}</li>
 
+  </ul>
+
+  <div *ngIf="show">
+    <p><a class="doboz login" href="">Hello {{ loginNev }}!</a></p>
+  </div>
+  <button
+    (click)="toggle()"
+    (dblclick)="demo($event)"
+  >Toggle</button>
 </div>
 
