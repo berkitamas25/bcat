@@ -15,6 +15,19 @@ export class AppComponent {
     this.show = !this.show;
   }
   demo(ev: MouseEvent) {
-    console.log(ev);
+    console.log(ev.screenX);
   }
+
+  /* public pipeDemo = [
+    {
+      'id': 1,
+      'name' : 'Tomi'
+    },
+    {
+      'id': 2,
+      'name': 'Jani'
+    }
+
+  ]; */
+
 }

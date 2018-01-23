@@ -37,4 +37,10 @@ display: contents;
   top: 10px;
   right: 10px;
 }
+button{
+  padding: 10px;
+  color: white;
+  background-color: black;
+}
+
 
