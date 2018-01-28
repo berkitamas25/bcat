@@ -11,7 +11,7 @@ import { ListdemoComponent } from './listdemo/listdemo.component';
   declarations: [
     AppComponent,
     EventComponent,
-    ListdemoComponent
+    ListdemoComponent,
   ],
   imports: [
     BrowserModule
